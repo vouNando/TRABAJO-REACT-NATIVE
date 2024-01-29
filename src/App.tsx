@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import { Acumulador } from "./typescript/Acumulador";
+//import { FuncionArreglos } from "./typescript/FuncionArreglos";
+//import { FuncionCalificacion } from "./typescript/FuncionCalificacion";
+//import { FuncionDivision } from "./typescript/FuncionDivision";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import { Funciones } from "./typescript/Funciones";
+
+
+ const App = () => {
+  return(
+    <div className="mt-2">
+      <h1>Introduccion</h1>
+      <hr />
+      <Funciones/>
+      {/*<FuncionArreglos/>*/ }
+      {/*<FuncionDivision/>*/}
+      {/*<FuncionCalificacion/>*/}
+      {/*<Acumulador/>*/}
     </div>
-  );
+  )
 }
-
-export default App;
+ export default App;
